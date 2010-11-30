@@ -38,7 +38,7 @@ class Transferrer(object):
             z = self.pull_zone(nsaddr)
         except (exception.FormError, socket.error, EOFError):
             print >> sys.stderr, "AXFR failed\n"
-            return False
+            return None
         else:
             return z
 
