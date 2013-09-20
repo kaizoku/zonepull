@@ -11,7 +11,7 @@ Usage
 
 ::
 
-    zonepull.py <domain>
+    zonepull <domain>
 
 Installation
 =====
