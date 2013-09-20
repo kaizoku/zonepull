@@ -12,3 +12,10 @@ Usage
 ::
 
     zonepull.py <domain>
+
+Installation
+=====
+
+::
+
+   pip install git+https://github.com/kaizoku/zonepull
