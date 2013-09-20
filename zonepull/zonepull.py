@@ -60,7 +60,7 @@ class Transferrer(object):
         return zone
 
 
-if __name__ == "__main__":
+def main():
     parser = optparse.OptionParser(usage="%prog <domain>", version="%prog 0.1")
     options, args = parser.parse_args()
     if not args:
